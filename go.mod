@@ -3,7 +3,7 @@ module github.com/99designs/aws-vault/v6
 go 1.19
 
 require (
-	github.com/99designs/keyring v1.2.1
+	github.com/99designs/keyring v1.2.2
 	github.com/alecthomas/kingpin v0.0.0-20200323085623-b6657d9477a6
 	github.com/aws/aws-sdk-go-v2 v1.16.12
 	github.com/aws/aws-sdk-go-v2/config v1.17.3
@@ -13,8 +13,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sts v1.16.15
 	github.com/google/go-cmp v0.5.8
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
-	golang.org/x/sys v0.0.0-20220829200755-d48e67d00261
-	golang.org/x/term v0.0.0-20220722155259-a9ba230a4035
+	golang.org/x/sys v0.3.0
+	golang.org/x/term v0.3.0
 	gopkg.in/ini.v1 v1.67.0
 )
 
